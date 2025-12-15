@@ -8,6 +8,8 @@
 
 当関数(sep)は、JavaScriptのsplitメソッドと同じ動作をします。
 第一引数、第二引数をそれぞれ記述することで使うことができます。
+splitメソッドと同じく、配列をreturnします。
+(`sep(element, delimiter)[0];`などで、文字列を取り出すことも可能です。)
 
 ## 使い方
 
@@ -35,7 +37,9 @@ elementには、分割するStringを、delimiterには、splitメソッドの�
 ## Overview
 
 This function (sep) works the same as JavaScript's split method.
-It can be used by specifying the first and second arguments.
+It can be used by specifying the first and second arguments separately.
+Like the split method, it returns an array.
+(You can also extract a string using `sep(element, delimiter)[0];`.)
 
 ## Usage
 
@@ -54,4 +58,4 @@ Example: `sep(str, "/");`
 
 [https://shisakankoy.github.io/newSeparator/newSeparator.js](https://shisakankoy.github.io/newSeparator/newSeparator.js)
 
-Specify this and write the script tag.
+Specify the following and write the script tag.
